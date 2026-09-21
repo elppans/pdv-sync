@@ -1,0 +1,14 @@
+### Conteúdo do diretório `~/arquivos/bin`
+
+Este diretório deve conter **scripts relacionados à atualização do PDV**.  
+Regras de uso:
+
+- Os scripts são executados **após a atualização do PDV**.  
+- Se o pacote `pdv-update.tar.gz` **não for utilizado**, os scripts são executados diretamente.  
+- Todos os scripts **são executados com privilégios de superusuário (sudo)**.  
+- Os scripts **devem ser armazenados neste diretório**.  
+- Os scripts **devem ter permissão de execução** para funcionar.  
+- Os scripts **devem ter a extensão `.sh`** para serem reconhecidos.  
+- Arquivos sem extensão `.sh` (ex.: `xmlstarlet`) podem ser usados como **complementos ou subcomandos** de scripts específicos.
+
+---
