@@ -28,6 +28,9 @@ echo "Loja: $(xmlstarlet sel -t -v "//CODLOJA" -n ./INFOPDV.XML )" 2>/dev/null
 echo "ECF: $(xmlstarlet sel -t -v "//NUMEROPDV" -n ./INFOPDV.XML )" 2>/dev/null
 echo "IP: $(xmlstarlet sel -t -v "//IP" -n ./INFOPDV.XML )" 2>/dev/null
 echo "SO: $(xmlstarlet sel -t -v "//DISTRO_SO" -n ./INFOPDV.XML )" 2>/dev/null
+echo "CODFON: $(xmlstarlet sel -t -v "//VERSAO" -n ./INFOPDV.XML )" 2>/dev/null
+echo "MODULOPHPPDV: $(xmlstarlet sel -t -v "//MODULOPHP" -n ./INFOPDV.XML )" 2>/dev/null
+echo "CLISITEF: $(xmlstarlet sel -t -v "//VERSAO_CLISITEF" -n ./INFOPDV.XML )" 2>/dev/null
 echo __________
 if [ -f /etc/canoalinux-release ];then
 echo "CANOALINUX:"
