@@ -315,7 +315,7 @@ for IP in $(cat "$IP_OK_FILE"); do
 	# echo "$passwd" | sudo -S -p \"\" ./pdv-update --zman 		# Atualiza o CODFON do PDV
 	# echo "$passwd" | sudo -S -p \"\" ./pdv-update --jpdvgui6 	# Atualiza o Java do PDV
 	# echo "$passwd" | sudo -S -p \"\" ./pdv-update --pdv 		# Atualiza todos os módulos {-l,-m,-z,-j}
-	  echo "$passwd" | sudo -S -p \"\" ./pdv-update --clisitef 	# Atualiza o bibliotecas CliSiTef do PDV
+	echo "$passwd" | sudo -S -p \"\" ./pdv-update --clisitef 	# Atualiza o bibliotecas CliSiTef do PDV
 	fi
 
 # Encontrar arquivos .sh e executar, se tiver permissão
